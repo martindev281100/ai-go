@@ -1,6 +1,6 @@
-# fal video models
+# fal
 
-`provider/fal` generates videos through the
+`provider/fal` talks to [fal.ai](https://fal.ai) through the
 [fal queue API](https://docs.fal.ai/model-apis/model-endpoints/queue). Any
 endpoint id is accepted, for example `fal-ai/kling-video/o3/pro/image-to-video`
 or `bytedance/seedance-2.0/fast/reference-to-video`. Per-model input schemas

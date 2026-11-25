@@ -1,6 +1,6 @@
-// Package fal implements fal.ai video generation over the fal queue API
-// (https://queue.fal.run). Any endpoint id is accepted; model input is built
-// from the request plus [VideoOptions.RawInput].
+// Package fal implements the fal.ai provider over the fal queue API
+// (https://queue.fal.run). It provides video models: any endpoint id is
+// accepted, and model input is built from the request plus [VideoOptions.RawInput].
 //
 // Besides the blocking [VideoModel.GenerateVideo], a [VideoModel] exposes a
 // durable split for applications that persist requests: [VideoModel.SubmitReply],

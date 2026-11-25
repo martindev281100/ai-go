@@ -6,7 +6,7 @@ import (
 	"github.com/open-ai-sdk/ai-go/llm"
 )
 
-// Provider is the entry point for constructing fal video models.
+// Provider is the entry point for constructing fal models.
 //
 // Construct with NewProvider; reuse across goroutines (HTTP client is shared).
 type Provider struct {

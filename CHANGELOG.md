@@ -78,7 +78,7 @@ optional `otelagent` package, which adapts OpenTelemetry to the
   accepted through `ImageOptions.RawInput`; new `llm.VideoModel`,
   `llm.VideoProvider`, and `Provider.Video` (with `SubmitVideo` /
   `VideoStatus`).
-- **`provider/fal`:** new fal.ai queue video provider (`NewProvider`,
+- **`provider/fal`:** new fal.ai provider over the queue API (`NewProvider`,
   `NewFromEnv` reading `FAL_KEY`, `Provider.Video`) implementing
   `llm.VideoModel` for any endpoint id, with `VideoOptions.RawInput`. Durable
   workflows get single, never-retried `SubmitReply` / `StatusReply` /
